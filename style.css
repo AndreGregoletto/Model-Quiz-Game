@@ -1,0 +1,376 @@
+/* Home Page */
+.homePageBody{
+    background-color: #E65135;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.homePageCampForm{
+    background-color: #ffff;
+    width: 100%;
+    height: 100%;
+    color: #E65135;
+    border-radius: 10px;
+    text-align: center;
+}
+.homePageImageLogar-Cadastrar{
+    height: 65px;
+    width: 130px;
+    margin: 0px;
+    padding: 0px;
+}
+/* Register Page */
+.RegisterPageBody{
+    background-color: #ffff;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.RegisterPageCampForm{
+    background-color: #E65135;
+    width: 100%;
+    height: 100%;
+    color: #ffff;
+    border-radius: 10px;
+    text-align: center;
+}
+.RegisterPageCampForm > p{
+    text-align: left;
+    text-indent: 15pt;
+    margin: 17px 0px 3px 0px;
+}
+.RegisterPageCampForm > input{
+    width: 90%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+}
+.RegisterPageCampForm > button{
+    width: 90%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffff;
+    color: #E65135;
+    font-weight: bolder;
+}
+.RegisterPageCampForm > button:hover{
+    background-color: #E65135;
+    color: #ffff;
+}
+/* Login Page */
+.loginPageBody{
+    background-color: #E65135;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.loginPageCampForm{
+    background-color: #ffff;
+    width: 100%;
+    height: 100%;
+    color: #E65135;
+    border-radius: 10px;
+    text-align: center;
+}
+.loginPageCampForm > p{
+    text-align: left;
+    text-indent: 15pt;
+    margin: 17px 0px 3px 0px;  
+}
+.loginPageCampForm > input{
+    width: 90%;
+    height: 35px;
+    border-radius: 10px;
+    border-color: #E65135;
+}
+.loginPageCampForm > button{
+    width: 90%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E65135;
+    color: #fff;
+    font-weight: bolder;
+}
+.loginPageCampForm > button:hover{
+    background-color: #fff;
+    color: #E65135;
+}
+/* Index Quiz */
+.indexQuizBody{
+    background-color: #E65135;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.indexQuizForm{
+    background-color: #ffff;
+    width: 100%;
+    height: 100%;
+    color: #E65135;
+    border-radius: 10px;
+    text-align: center;
+}
+.indexQuizForm > p{
+    text-align: left;
+    text-indent: 15pt;
+    margin: 17px 0px 3px 0px;  
+}
+.indexQuizForm > img {
+    height: 150px;
+    width: 150px;
+}
+.questQuizForm{
+    font-weight: bolder;
+}
+.indexQuizForm > button{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #E65135;
+    color: #fff;
+    border: none;
+}
+.indexQuizForm > button:hover{
+    background-color: #fff;
+    color: #E65135;
+}
+.indexQuizFormAnswers{
+    text-align: left;
+}
+.indexQuizLogout{
+    width: 80px;
+    height: 50px;
+}
+/* End Quiz */
+.endQuizBody{
+    background-color: #E65135;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.endQuizCamp{
+    background-color: #ffff;
+    color: #E65135;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 25px 80px 10px 80px;
+}
+.text-green{
+    color:green !important;
+    font-weight: bolder !important;
+}
+.text-black{
+    color:black !important;
+}
+.text-red{
+    color:red !important;
+    font-weight: bolder !important;
+}
+.endQuizCamp > h2{
+    text-align: center;
+}
+.endQuizCampQuest{
+    font-size: 16pt;
+}
+.endQuizCampQuestResult{
+    text-align: center;
+}
+.endQuizCampAnswer{
+    color: black;
+    font-weight: normal !important;
+}
+.endQuizCampButton{
+    background-color: #E65135;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    height: 35px;
+    color: #fff;
+    text-align: center !important;
+}
+/* Admin Controller */
+.adminQuizBody{
+    background-color: #E65135;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.adminQuizCamp{
+    background-color: #ffff;
+    color: #E65135;
+    border-radius: 10px;
+    text-align: justify;
+}
+.listaAdmin{
+    list-style-type: none;
+    background-color: #E65135;
+    border-radius: 15px;
+    text-align: center;
+    margin: 10px;
+    padding: 30px 0px 30px 0px;
+}
+.listaAdmin > li > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.listaAdmin > li > a:hover{
+    color: #f32e0b;
+    background-color: #fffcfc;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
+.listaAdmin > li{
+    margin: 20px 0px 20px;
+}
+.startedAdmin{
+    background-color: white;
+    color: #E65135;
+    border-radius: 15px;
+}
+.startedAdmin > h2{
+    text-align: center;
+    margin: 60px 0px 20px;
+}
+.startedAdmin > span{
+    text-align: start;
+}
+.AdminIconsTable{
+    width: 20px;
+    height: 20px;
+}
+/*AdminQuestion*/
+.addQuestionCamp{
+    margin: 50px 100px 40px 100px;
+}
+.addQuestionCamp > input{
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+}
+.addQuestionCamp > select{
+    width: 49%;
+    height: 40px;
+    border-radius: 15px;
+}
+.addQuestionCamp > button{
+    width: 49%;
+    height: 40px;
+    background-color: #E65135;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+}
+.addQuestionCamp > p{
+    margin: 10px 0px 2px 10px;
+    text-align: left;
+}
+.btn{
+    background-color: #ffff;
+    color: #E65135;
+    border: none;
+    text-align: center;
+}
+.btn:hover{
+    background-color: #E65135;
+    color: #fff;
+}
+.buttonModal{
+    text-align: center;
+}
+/* Admin Quest Edit */
+.bodyAdminQuestEdit{
+    background-color: #E65135;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.AdminCamp{
+    background-color: #fff;
+    color: #E65135;
+    border-radius: 10px;
+}
+.AdminEditForm{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+.AdminEditForm > p{
+    margin: 0px;
+    text-align: left;
+    margin-left: 3%;
+}
+.AdminEditForm > input{
+    width: 100%;
+    height: 35px;
+    border-radius: 15px;
+    border-color: #E65135;
+}
+.AdminEditForm > select{
+    width: 49%;
+    height: 35px;
+    border-radius: 15px;
+    border-color: #E65135;
+}
+.AdminEditForm > button{
+    width: 49%;
+    height: 35px;
+    border-radius: 15px;
+    border-color: #E65135;
+    background-color: #E65135;
+    color: #fff;
+}
+/* AdminAnswers */
+.perguntasAdminAdd{
+    width: 100%!important;
+}
+.AnswersModal{
+    text-align: center;
+    width: 100%;
+}
+.AnswersModal > select{
+    width: 50%;
+    height: 35px;
+    border-radius: 15px;
+}
+.AnswersModal > p{
+    margin: 15px 0px 0px 2px;
+}
+/* Admin User */
+.AdminUserForm{
+    text-align: center;
+}
+.AdminUserForm > p{
+    margin: 0px;
+    text-align: left;
+    text-indent: 13pt;
+    margin: 15px 0px 4px 0px;
+}
+.AdminUserForm > input{
+    width: 95%;
+    height: 30px;
+    border-radius: 15px;
+}
+.AdminUserForm > select{
+    width: 95%;
+    height: 30px;
+    border-radius: 15px;
+}
+.AdminUserForm > button{
+    width: 95%;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #E65135;
+    color: #fff;
+    border: none;
+}
+.buttonModalUser{
+    margin-top: 10px;
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+}
+.AdminUserForm{
+    text-align: center;
+}
